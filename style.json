@@ -6,7 +6,7 @@
     "license": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "glyphs": "http://localhost:8888/fonts/{fontstack}/{range}",
-  "sprite": "http://localhost:8888/sprites",
+  "sprite": "http://localhost:8888/sprites/",
   "sources": {
     "shortbread": {
       "tilejson": "3.0.0",
@@ -13239,7 +13239,7 @@
         "symbol-placement": "point",
         "icon-optional": true,
         "text-font": [
-          "noto_sans_regular"
+          "Open Sans Semibold"
         ],
         "icon-image": [
           "match",
