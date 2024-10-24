@@ -1,0 +1,21 @@
+{
+  "options": {
+    "paths": {
+      "mbtiles": "data"
+    },
+    "domains": [
+      "localhost:9999",
+      "127.0.0.1:9999"
+    ]
+  },
+  "styles": {
+    "style": {
+      "style": "style.json"
+    }
+  },
+  "data": {
+    "massachusetts": {
+      "mbtiles": "massachusetts.mbtiles"
+    }
+  }
+}

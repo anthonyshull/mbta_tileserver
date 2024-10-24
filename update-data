@@ -1,0 +1,3 @@
+#! /bin/sh
+
+curl -o data/massachusetts.mbtiles https://download.geofabrik.de/north-america/us/massachusetts-shortbread-1.0.mbtiles

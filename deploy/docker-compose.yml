@@ -1,0 +1,17 @@
+services:
+  styleserver:
+    build:
+      context: ../
+      dockerfile: ./deploy/styleserver/Dockerfile
+    expose:
+      - 8888
+    ports:
+      - 8888:8888
+  tileserver:
+    build:
+      context: ../
+      dockerfile: ./deploy/tileserver/Dockerfile
+    expose:
+      - 9999
+    ports:
+      - 9999:9999
