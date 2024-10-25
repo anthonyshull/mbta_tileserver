@@ -1,7 +1,9 @@
 {
   "options": {
     "paths": {
-      "mbtiles": "data"
+      "fonts": "fonts",
+      "mbtiles": "data",
+      "sprites": "sprites"
     },
     "domains": [
       "localhost:9999",

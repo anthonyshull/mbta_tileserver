@@ -1,3 +1,5 @@
 #! /bin/sh
 
 curl -o data/massachusetts.mbtiles https://download.geofabrik.de/north-america/us/massachusetts-shortbread-1.0.mbtiles
+# curl -o data/new-hampshire.mbtiles https://download.geofabrik.de/north-america/us/new-hampshire-shortbread-1.0.mbtiles
+# curl -o data/rhode-island.mbtiles https://download.geofabrik.de/north-america/us/rhode-island-shortbread-1.0.mbtiles

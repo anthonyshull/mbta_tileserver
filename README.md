@@ -16,7 +16,7 @@ Get the latest vector tiles.
 Run docker compose.
 
 ```
-%> docker compose -f deploy/docker-compose.yml up
+%> docker compose -f deploy/docker-compose.yml up --build
 ```
 
 You can then use [maplibre-gl](https://maplibre.org/maplibre-gl-js/docs/).

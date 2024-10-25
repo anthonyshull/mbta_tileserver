@@ -12,6 +12,8 @@ RUN tileserver-gl-light --help
 COPY config.json .
 COPY style.json .
 COPY data/ data/
+COPY fonts/ fonts/
+COPY sprites/ sprites/
 
 EXPOSE 9999
 
