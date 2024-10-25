@@ -27,3 +27,11 @@ new maplibregl.Map({
   style: 'http://localhost:8888/style.json',
 });
 ```
+
+## Roadmap
+
+* Serve fonts and sprites out of tileserver-gl and remove the static server
+* Create glyphs for [Inter](https://fonts.google.com/specimen/Inter) so our font styles match the brand
+* Add New Hampshire and Rhode Island
+  * It doesn't look like simply adding multiple states works as the tiles overlap
+  * Either use the entire NE (which is a 1.5GB file) or figure out how to combine multiple states 
